@@ -33,7 +33,7 @@ buff_list = []
 
 abs_path = os.path.abspath(__file__ + "/..") + "\\image\\"
 
-fon_image = pygame.transform.scale(pygame.image.load("fon2.jpg"), (setting_win["WIDTH"], setting_win["HEIGHT"]))
+fon_image = pygame.transform.scale(pygame.image.load("./image/fon2.jpg"), (setting_win["WIDTH"], setting_win["HEIGHT"]))
 hero_image = pygame.image.load("hero.png")
 bot_image = pygame.image.load("enemy.png")
 ammo_hero_image = pygame.transform.scale(pygame.image.load("ammo_hero.png"), (10,20))
